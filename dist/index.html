@@ -8,7 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="container">
+        <nav id="top-bar">
+            <div id="left-nav-btns">
+                <button class="nav-btn" id="list">list</button>
+                <button class="nav-btn" id="home">home</button>
+            </div>
+            <div id="right-nav-btns">
+                <button class="nav-btn" id="completed-task">completed</button>
+                <button class="nav-btn" id="reminders">reminder</button>
+                <button class="nav-btn" id="profile">profile</button>
+            </div>
+        </nav>
+        <header id="header">
+            <h1 id="h1-today">Today</h1>
+            <button id="add-task">Add task</button>
+            <button id="sort-task">Sort</button>
+        </header>
+
+        <div id="content">
+            <div id="task-div"></div>
+        </div>
+
+        <footer id="footer">
+            <p id="footer-P"></p>
+        </footer>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

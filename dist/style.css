@@ -1,0 +1,35 @@
+body {
+    background-color: #202020;;
+}
+
+#top-bar {
+    display: flex;
+    background-color: #282828;
+    height: 43px;
+    min-width: max-content;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#left-nav-btns {
+    display: flex;
+    padding-right: 10px;
+    margin: 5px auto 5px 20px;
+}
+
+#right-nav-btns { 
+    display: flex;
+    padding-left: 10px;
+    margin: 5px 20px 5px auto;
+}
+
+.nav-btn {
+    margin: 2px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    color: #610094;
+}
+
