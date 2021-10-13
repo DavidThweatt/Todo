@@ -5,45 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="container">
         <nav id="top-bar">
             <div id="left-nav-btns">
-                <p>
-                    <span class="material-icons-outlined">menu</span>
-                </p>
-                <p>
-                    <span class="material-icons-outlined">home</span>
-                </p>
-                
+                <button class="nav-bar-btns"><span class="material-icons-sharp">menu</span></button>
+                <button class="nav-bar-btns"><span class="material-icons-sharp">home</span></button>
             </div>
             <div id="right-nav-btns">
-                <p>
-                    <span class="material-icons-outlined">done_all</span>
-                </p>
-                <p>
-                    <span class="material-icons-outlined">notifications_active</span>
-                </p>
-                <p>
-                    <span class="material-icons-outlined">account_circle</span>
-                </p>
+                <button class="nav-bar-btns"><span class="material-icons-sharp green">done_all</span></button>
+                <button class="nav-bar-btns"><span class="material-icons-sharp">notifications_active</span></button>
+                <button class="nav-bar-btns"><span class="material-icons-sharp blue">account_circle</span></button>
             </div>
         </nav>
         <header id="header">
-            <h1 id="h1-today">Today</h1>
-            <p>
-                <span class="material-icons-outlined">add</span>
-            </p>
-            <p>
-                <span class="material-icons-outlined">swap_vert</span>
-            </p>
+            <div class="header-divs">
+                <h1 id="h1-today">Today</h1>
+            </div>
+            <div class="header-divs">
+                <button id="sort-btn" class="header-btns"><span class="material-icons-sharp">swap_vert</span>Sort</button>
+            </div>
         </header>
-
         <div id="content">
-            <div id="task-div"></div>
+            <div>
+                <button id="add-task-btn" class="header-btns"><span class="material-icons-sharp md-48 color">add</span>Add task</button>
+            </div>
+            <div id="task-div">
+
+            </div>
         </div>
 
         <footer id="footer">

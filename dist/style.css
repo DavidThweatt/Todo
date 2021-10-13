@@ -1,7 +1,26 @@
+.material-icons-sharp {
+    font-size: 30px;
+    color: #BBBBBB;
+}
 
+.material-icons-sharp.md-48 { 
+    font-size: 48px; 
+}
+
+.material-icons-sharp.md-48.color {
+    color: #84142D;
+}
+
+.material-icons-sharp.green {
+    color: #346751;
+}
+
+.material-icons-sharp.blue {
+    color: #6E85B2;
+}
 
 body {
-    background-color: #202020;;
+    background-color: #202020;
 }
 
 #top-bar {
@@ -25,13 +44,48 @@ body {
     margin: 5px 20px 5px auto;
 }
 
-.nav-btn {
+.nav-bar-btns {
     margin: 2px;
+    border: none;
+    background-color: #282828;
 }
 
 #header {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+    font-family: sans-serif;
+}
+
+.header-btns {
+    margin: 2px;
+    border: none;
+    background-color: #202020;
 
 }
 
+.header-divs {
+    flex-direction: row;
+    margin: 10px 10px;
+}
+
+#sort-btn {
+    height: 50px;
+    width: 150px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #423F3E;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#add-task-btn {
+    height: 50px;
+    width: 160px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #423F3E;
+}
