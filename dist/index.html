@@ -11,6 +11,7 @@
 <body>
     <div id="container">
         <nav id="top-bar">
+
             <div id="left-nav-btns">
                 <button class="nav-bar-btns"><span class="material-icons-sharp">menu</span></button>
                 <button class="nav-bar-btns"><span class="material-icons-sharp">home</span></button>
@@ -21,22 +22,34 @@
                 <button class="nav-bar-btns"><span class="material-icons-sharp blue">account_circle</span></button>
             </div>
         </nav>
-        <header id="header">
-            <div class="header-divs">
-                <h1 id="h1-today">Today</h1>
+        <div id="main">
+            <header id="header">
+                <div class="header-divs">
+                    <h1 id="h1-today">Today</h1>
+                </div>
+                <div class="header-divs">
+                    <button id="sort-btn" class="header-btns"><span class="material-icons-sharp">swap_vert</span></button>
+                </div>
+            </header>
+    
+            <div id="add-task-div">
+                <button id="add-task-btn" class="header-btns"><span class="material-icons-sharp md-48 color">add</span></button>
+                <p id="add-task-para">Add task</p>
             </div>
-            <div class="header-divs">
-                <button id="sort-btn" class="header-btns"><span class="material-icons-sharp">swap_vert</span>Sort</button>
-            </div>
-        </header>
-        <div id="content">
-            <div>
-                <button id="add-task-btn" class="header-btns"><span class="material-icons-sharp md-48 color">add</span>Add task</button>
-            </div>
-            <div id="task-div">
-
+    
+            <div id="content">
+                <div id="no-task-div">
+                    <div>
+                        <p id="no-task-icon"><span class="material-icons-sharp md-200">self_improvement</span></p>
+                    </div>
+                    <div>
+                        <p id="all-done-paragraph">Time to relax, no task left!</p>
+                    </div>
+                    
+                </div>
             </div>
         </div>
+        
 
         <footer id="footer">
             <p id="footer-P"></p>
